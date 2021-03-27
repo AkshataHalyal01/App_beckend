@@ -1,6 +1,6 @@
 pipeline {
     agent any 
-     parlle
+    options { timestamps() }
     stages {
         stage('Build') { 
             steps {
